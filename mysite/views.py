@@ -30,5 +30,9 @@ def index1(request):
 	
 	return render(request, "index1.html", locals())
 
+def season(request):
+	
+	return render(request, "season.html", locals())
+
 
 

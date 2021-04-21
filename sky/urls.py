@@ -23,6 +23,7 @@ urlpatterns = [
     path('lotto/', views.lotto),
     path('', views.index),
     path('icloud/', views.icloud),
+    path('season/', views.season),
     path('index1/', views.index1)
 
 
